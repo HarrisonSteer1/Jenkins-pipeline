@@ -3,13 +3,8 @@ pipeline{
   stages {
     stage('Pipeline Stage 1'){
       steps {
-        sh "ls"
+        sh "build.sh"
       }
     }
-      stage('second stage'){
-        steps {
-          sh "pwd"
-        }
-     }
   }
 }
