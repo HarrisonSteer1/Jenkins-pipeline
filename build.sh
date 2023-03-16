@@ -1,1 +1,1 @@
-docker build -t task1 /dockerfileexercise/Task1/ 
+docker build -t task1 etc/dockerfileexercise/Task1
